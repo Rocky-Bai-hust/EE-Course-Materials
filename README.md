@@ -61,46 +61,6 @@
 - 实验报告、实验代码、课程设计材料
 - PDF、PPT/PPTX、Word、图片、表格、Verilog/C/Python/SQL 等文件
 
-## 使用建议
-
-1. 先按学期进入目录，再按课程查找资料。
-2. 复习时优先查看各课程下的 `复习`、`PPT`、`实验`、`作业` 等子目录。
-3. 代码类资料建议先在本地新建独立环境运行，避免不同课程项目之间依赖冲突。
-4. 若发现文件命名不清晰、内容重复或资料缺失，可以通过 Issue 或 Pull Request 补充。
-
-## 上传到 GitHub 前的注意事项
-
-GitHub 对普通 Git 仓库有文件大小限制：
-
-- 通过浏览器上传单个文件通常不能超过 25MiB。
-- 普通 Git 仓库中，单个文件超过 50MiB 会收到警告。
-- 单个文件超过 100MiB 会被 GitHub 拒绝。
-- 大型二进制文件建议使用 Git LFS、Release 附件或网盘链接。
-
-本资料目录体量较大，建议优先上传：
-
-- 自己整理的笔记、实验报告、代码、复习提纲；
-- 小体积且确有分享价值的 PDF/PPT/Word；
-- 不含个人隐私、账号信息、同学信息、教师未授权材料的文件。
-
-对于较大的教材扫描件、软件安装包、压缩包、公开视频/音频等文件，建议不要直接放进 Git 仓库。
-
-## 本地 Git 初始化示例
-
-```bash
-git init
-git add README.md NOTICE.md .gitignore
-git commit -m "docs: initialize course materials repository"
-```
-
-后续创建 GitHub 空仓库后，按 GitHub 页面提示执行：
-
-```bash
-git branch -M main
-git remote add origin https://github.com/<你的用户名>/<仓库名>.git
-git push -u origin main
-```
-
 ## 版权与隐私
 
 仓库内容仅作学习交流与个人归档。上传前请自行确认资料的版权状态与隐私风险。若资料涉及课程教师、同学、学校内部平台、考试题库或第三方教材内容，请谨慎公开。
