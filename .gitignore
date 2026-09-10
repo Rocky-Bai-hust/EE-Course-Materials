@@ -1,0 +1,74 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+.vs/
+*.suo
+*.wsuo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# C/C++/Visual Studio build outputs
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.tlog
+*.ipch
+*.opendb
+*.VC.db
+
+# MATLAB temporary files
+*.asv
+*.m~
+
+# Office temporary files
+~$*
+
+# Archives and disk images are usually too large for a normal Git repository.
+# Remove a pattern below only when you are sure the file is small and shareable.
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.iso
+
+# Files already found above GitHub's normal 100MiB hard limit.
+大二上学期/模拟电子技术/蔡超PPT/Multisim14.0.rar
+大二下学期/数理方程/Lecture Notes (PDE).pdf
+大二下学期/计算机组成原理与接口技术/复习/计算机组成原理与接口技术：基于MIPS架构 (左冬红) (Z-Library).pdf
+大二上学期/数字电子技术/《电子技术基础·数字部分》第7版 (康华光 张林).pdf
+大二上学期/电子线路设计实验/实验报告/模电数电实验.zip
+大二上学期/数字电子技术/复习/数电真题及复习.zip
+大二上学期/模拟电子技术/第四版_Neamen.pdf
+
+# Optional: keep very large media outside Git.
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mp3
+*.wav
